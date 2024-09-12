@@ -1,0 +1,13 @@
+.card:hover {
+    border: 1px solid rgb(0, 0, 0);
+    transition:  .4s ease;
+}
+
+.card Button:hover{
+    scale: 1.1;
+    transition:  .4s ease;
+}
+
+.card .imaage1, .imaage2, .imaage3 {
+    scale: 65%;
+}

@@ -1,0 +1,38 @@
+/* @media condition {
+    block of code
+} 
+    
+EX :
+تحديد الميديا الخاصة بالطباعة 
+مثلا تحديد حجم الخط عند الطباعة فقط
+@media print {
+    div : {
+    font-size: 100px;
+} 
+------------------------------
+/*  
+    .. Mobile
+@media (max-width: 767px) {
+}
+
+
+    .. Small Screens 
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+
+    .. Medium Screens 
+@media (min-width: 992px) {
+}
+
+
+    ..  Large Screens 
+@media (min-width: 1200px) {
+}
+
+
+    ..  Custom media
+@media (max-width: 1199px) {
+}
+
+*/

@@ -1,0 +1,34 @@
+.Clients {
+    background-image: url('../../Images/bg.jpg');
+    background-size: cover; 
+    background-position: center;  
+    /* text-align: center; */
+} 
+
+.my-custom-icon {
+    scale: 5;   
+}
+
+.Clients .image {
+    display: flex;
+}
+
+.Clients .words {
+    color: black;
+}
+
+.Clients .name {
+    color: #A52A2A;
+}
+
+.Clients .slide {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.Clients .text {
+    width: 400px;
+    margin-bottom: 150px;
+    font-size: 15px;
+    text-align: center;
+}

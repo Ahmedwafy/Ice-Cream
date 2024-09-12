@@ -1,0 +1,11 @@
+.newButton {
+    width: 200px;
+    height: 60px;
+    border: none;
+    background-color: #FF4747;
+    color: white;
+    border-radius: 50px;
+    margin-top: 50px;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+}

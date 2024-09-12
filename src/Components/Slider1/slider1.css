@@ -1,0 +1,74 @@
+.carousel-caption .h3 {
+    color: #000;
+    font-size: 80px;
+    position: relative;
+    bottom: 200px;
+    font-family: "Chewy", system-ui;
+}
+@media (max-width: 576px) {
+    .carousel-caption .h3 {
+        position: relative;
+        top: 50px;
+        font-size: 40px;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+    .carousel-caption .h3 {
+        position: relative; 
+        font-size: 70px;
+        top: 1px;
+    }
+}
+
+
+p {
+    color: #000;
+    position: relative;
+    bottom: 180px;
+}
+@media (max-width: 420px) {
+    p {
+        position: relative;
+        top: 30px;
+        font-size: 12px;
+    }
+}
+@media (max-width: 576px) {
+    p {
+        position: relative;
+        bottom: 70px;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+    p {
+        position: relative;
+        top: 12px;
+    }
+}
+
+
+
+.button {
+    background-color: #FF4747;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    width: 150px;
+    height: 60px;
+    /* position: relative; */
+    /* bottom: 300px; */
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+
+    &&:hover {
+        background-color: #282828;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .button {
+        position: relative;
+        top: 20px;
+    }
+}

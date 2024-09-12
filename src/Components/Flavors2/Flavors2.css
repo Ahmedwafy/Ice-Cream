@@ -1,0 +1,18 @@
+.Flavors2 {
+    margin-top: 100px;
+}
+
+
+.desc1 {
+  margin-left: 20px;
+}
+
+.desc2 {
+  margin-right: 20px;
+}
+
+@media (max-width: 576px) {
+  .cone {
+    display: none;
+  }
+}

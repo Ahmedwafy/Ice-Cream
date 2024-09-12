@@ -1,0 +1,18 @@
+.list {
+    display: flex;
+    /* background-color: aqua; */
+    padding-right: 30px;
+}
+
+.list .icon {
+    /* margin: 15px 30px 0; */
+    margin: auto;
+    scale: 3;
+    /* background-color: #FF4747; */
+}
+
+.list .icon:hover {
+    cursor: pointer;
+    color: #FF4747;
+}
+

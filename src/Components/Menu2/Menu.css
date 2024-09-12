@@ -1,0 +1,27 @@
+.menu2 .btn2 {
+    /* margin-left: 40px; */
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #FF4747;
+    color: white;
+    margin-top: 20px;
+}
+
+.menu2 .btn2:hover {
+    background-color: #282828;
+    transition: background-color 0.3s ease;
+}
+
+.menu2 .price2 {
+    margin-left: 70px;
+    text-align: center;
+    margin: auto;
+}
+
+.menu2 .item {
+    width: 200px;
+    margin-left: 20px;
+    text-align: center;
+}

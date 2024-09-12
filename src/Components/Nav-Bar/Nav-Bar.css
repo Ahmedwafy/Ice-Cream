@@ -1,0 +1,57 @@
+.icon1, .icon2, .icon3, .icon4, .icon5 {color: #000000;}
+
+.icon1:hover {
+    color: #0866FF;
+    scale: 2;
+    transition: .3s;
+    cursor: pointer;
+}
+.icon2:hover {
+    color: #FF0085;
+    scale: 2;
+    cursor: pointer;
+    transition: .3s;
+}
+.icon3:hover {
+    color: #0A66C2;
+    scale: 2;
+    cursor: pointer;
+    transition: .3s;
+}
+.icon4:hover {
+    color: #E60023;
+    scale: 2;
+    cursor: pointer;
+    transition: .3s;
+}
+.icon5:hover {
+    color: #000000;
+    scale: 2;
+    cursor: pointer;
+    transition: .3s;
+}
+.baar .home, .AboutUs, .Services, .Pricing, .ContactUs{
+    font-size: 20px;
+}
+.baar .home1:hover,
+.baar .aboutus1:hover,
+.baar .services1:hover, 
+.baar .price1:hover, 
+.baar .contact1:hover {
+    text-decoration: none;
+    color: #000000; 
+}
+.baar .home1,
+.baar .aboutus1,
+.baar .services1, 
+.baar .price1, 
+.baar .contact1 {
+    text-decoration: none;
+    color: #ff0000;
+    font-size: 20px;
+}
+.active {
+    color: #000000 !important; 
+}
+
+

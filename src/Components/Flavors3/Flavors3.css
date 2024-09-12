@@ -1,0 +1,15 @@
+.Flavors3 .custum-btn {
+    background-color: #FF4747;
+    border: none;
+    width: 200px;
+    height: 60px;
+    border-radius: 50px;
+    margin-top: 80px;
+    color: white;
+    font-size: 18px;
+}
+
+.Flavors3 .custum-btn:hover {
+    transition: background-color 0.3s ease;
+    background-color: #282828;
+}

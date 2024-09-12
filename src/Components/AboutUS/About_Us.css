@@ -1,0 +1,13 @@
+.AboutUS .custom-btn5 {
+    background-color: #FF4747;
+    width: 120px;
+    height: 60px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+
+    &&:hover {
+        background-color: #282828;
+    }
+}
+
