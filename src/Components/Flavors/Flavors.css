@@ -1,4 +1,4 @@
-.newButton {
+.custom-Buttom {
     width: 200px;
     height: 60px;
     border: none;
@@ -6,6 +6,10 @@
     color: white;
     border-radius: 50px;
     margin-top: 50px;
-    transition: background-color 0.3s ease;
     font-size: 18px;
+    
+    &&:hover {
+        background-color: #282828;
+        transition: background-color 0.3s ease;
+    }
 }

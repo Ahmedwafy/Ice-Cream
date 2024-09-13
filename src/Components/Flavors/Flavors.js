@@ -63,7 +63,7 @@ function Flavors () {
 
         <Row>
           <Col md={4} style={{margin:'auto'}} className='d-flex justify-content-center'>
-            <button style={{textAlign:'center'}} className='newButton'>View All Ice Creams</button>
+            <button style={{textAlign:'center'}} className='custom-Buttom'>View All Ice Creams</button>
           </Col>
         </Row>
 
