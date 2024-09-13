@@ -54,4 +54,8 @@
     color: #000000 !important; 
 }
 
-
+@media (max-width: 768px) {
+    .custom-list {
+        margin-top: 20px;
+    }
+}

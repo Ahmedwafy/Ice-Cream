@@ -43,7 +43,7 @@ function Nav_Bar () {
                 </Col>
 
                 <Col className="text-center">
-                    <ListGroup horizontal className='justify-content-end'>
+                    <ListGroup horizontal className='justify-content-center custom-list'>
 
                         <ListGroup.Item>
                             <FontAwesomeIcon className='icon1' icon={faFacebook} />
@@ -100,7 +100,7 @@ function Nav_Bar () {
             </div>
         ) :  (
             // Component for > 576px ..  more than 576px
-            <Row className="justify-content-center pt-3 baar" style={{background:'#FF4747'}}>
+            <Row className="justify-content-center pt-3 baar" style={{background:'#FF4747',borderRadius:'8px'}}>
             <Col className='d-flex justify-content-center'>
                 <ListGroup horizontal >
 
