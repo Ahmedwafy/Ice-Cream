@@ -59,3 +59,45 @@
         margin-top: 20px;
     }
 }
+
+.custom-span1 {
+    font-size: 20px;
+}
+
+
+/* @media (max-width: 375px) {
+    .custom-span1,.custom-span{
+        font-size: 15px;
+    }
+} */
+
+
+@media (max-width: 305px) {
+    .custom-bar {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+}
+
+
+@media (max-width: 305px) {
+    .custom-span1, .custom-span, .custom-image1 {
+        display: none;
+    }
+}
+
+@media (min-width: 305px) and (max-width: 379px) {
+    .text-start {
+        display: flex;
+        justify-content: center;
+        display: none;
+
+    }
+}
+
+@media (max-width: 304px) {
+    #logoo {
+           width: calc(100vh - 20px);
+    }
+}

@@ -30,14 +30,16 @@ function Nav_Bar () {
             <Row className="justify-content-between bg-light py-3">
 
                 <Col className="text-start">
-                    <Image style={{paddingTop:'20px', scale:'1.3'}} src={phone} alt="#" /> 
-                    <span style={{marginLeft:'20px', fontSize:'20px', fontWeight:'revert-layer'}}>Need Help?</span> 
-                    <br/>
-                    <span style={{marginLeft:'43px'}}>123-456-7890</span>
+                    <div className='custom-bar'>
+                        <Image className='custom-image1' style={{paddingTop:'20px', scale:'1.3'}} src={phone} alt="#" /> 
+                        <span style={{marginLeft:'20px', fontWeight:'revert-layer'}} className='custom-span1'>Need Help?</span> 
+                        <br/>
+                        <span style={{marginLeft:'43px'}} className='custom-span'>123-456-7890</span>
+                    </div>
                 </Col>
 
-                <Col className="text-center" >
-                    <NavLink to="/">    
+                <Col className="text-center d-flex justify-content-center">
+                    <NavLink to="/" id='logoo'>    
                         <Image src={logo} alt="#"/>
                     </NavLink>
                 </Col>
